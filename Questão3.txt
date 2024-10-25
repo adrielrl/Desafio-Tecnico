@@ -1,0 +1,9 @@
+3 - Observe o trecho de código abaixo: int INDICE = 12, SOMA = 0, K = 1; enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; } 
+imprimir(SOMA);
+
+R: basicamente enquanto o k < indice ele vai continuar a fazer o calculo,
+então dando um exemplo da primeira incrementação vai ser o seguinte:
+k = 1 -- soma = 0 + 1 = 1
+k = 2 -- soma = 1 + 2 = 3
+assim por diante ate o valor de k ser maior ou igual ao indice.
+o valor final que vai ser imprimimido é 66.
